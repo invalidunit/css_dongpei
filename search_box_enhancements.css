@@ -1,0 +1,8 @@
+.search-item.el-input.search-item:hover{
+    transition: width 0.8s !important;
+    width: 800px !important;
+}
+
+.search-item.el-input.search-item{
+    transition: width 1s !important;
+}
