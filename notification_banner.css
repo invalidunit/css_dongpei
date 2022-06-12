@@ -1,0 +1,46 @@
+.el-message{
+    margin-top: 50px;
+    margin-left: 755px;
+    backdrop-filter: blur(5px);
+    border-radius: 12px !important;
+}
+
+.el-message__icon{
+    font-size: 20px;
+}
+
+.el-icon-success{
+    color:#46a600 !important;
+}
+
+.el-icon-error{
+    color:#FF7789 !important;
+}
+
+.el-message__content{
+    color:#46a600;
+    text-shadow: 0 0 2px #FFF;
+    font-size: 15px !important;
+}
+
+.el-message--success{
+    color:#46a600 !important;
+    background-color: rgba(238, 249, 235, .7) !important;
+    border: 2.5px solid rgba(100, 219, 80, .7) !important;
+    text-shadow: 0 0 2px #FFF;
+}
+
+.el-message--error{
+    color:#FF4455 !important;
+    background-color: rgba(249, 235, 235, .7) !important;
+    border: 2.5px solid rgba(255, 119, 137, .7) !important;
+    text-shadow: 0 0 2px #FFF;
+}
+
+.el-message-fade-enter-active{
+    transform:translate(100%,0%) !important;
+}
+
+.el-message-fade-leave-active{
+    transform:translate(100%,0%) !important;
+}
